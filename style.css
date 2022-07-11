@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: #6bb29a;
+}
+.col-md-4{
+    height: 200px;
+}
+.card1{
+  width: 100%;
+  height:  100%;
+    background-color: rgb(151 5 5 / 71%);
+}
+.card1 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 35px;
+    margin-top: 20px;
+
+}
+.card2{
+    width: 100%;
+ height:  100%;
+    background-color: rgb(24 136 149);
+}
+.card2 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 35px;
+    margin-top: 20px;
+ 
+}
+.card3{
+    width: 100%;
+    height:  100%;
+   
+    background-color: black;
+    
+}
+.card3 img{
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+   
+}
+
+
+.card4{
+    width: 100%;
+    height:  100%;
+    background-color: rgb(77 116 184);
+}
+.card4 img{
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+   
+}
+.card5{
+    width: 100%;
+    height:  100%;
+    background-color: rgb(30 48 149);
+}
+.card5 img{
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+  
+}
+.card6{
+    width: 100%;
+    height:  100%;
+    background-color:rgb(193 171 123)
+    
+}
+.card6 img{
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+.p1{
+    padding-left: 150px;
+    text-align: justify;
+}
+.p2{
+    padding-right: 150px;
+    text-align: justify;
+}
+
+
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .p1 ,.p2{
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      text-indent: 50px;
+    }
+  
+    
+}
